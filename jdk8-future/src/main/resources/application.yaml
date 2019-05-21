@@ -1,0 +1,12 @@
+# Thread pool task executor customization parameters
+executor:
+  core-pool-size: 5
+  max-pool-size: 10
+  queue-capacity: 50
+  keep-alive-seconds: 60
+  thread-group-name: MY-EXECUTOR
+  thread-name-prefix: MY-THREAD-
+
+# Log levels
+logging.level:
+  com.chopstick: DEBUG
