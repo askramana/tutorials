@@ -10,3 +10,12 @@ executor:
 # Log levels
 logging.level:
   com.chopstick: DEBUG
+
+# Actuator Configuration
+management:
+  endpoints:
+    web.exposure:
+      include: '*'
+  endpoint:
+    health:
+      show-details: always
